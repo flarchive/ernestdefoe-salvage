@@ -1,0 +1,135 @@
+.SalvageHealth {
+  margin-bottom: 40px;
+
+  &-status .Alert {
+    margin-bottom: 20px;
+  }
+
+  &-status h3 {
+    font-size: 15px;
+    margin: 0 0 6px;
+  }
+
+  &-scan {
+    margin-bottom: 20px;
+  }
+
+  &-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  &-views,
+  &-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  &-filters .Select,
+  &-filters .FormControl {
+    flex: 1 1 240px;
+  }
+
+  &-filters {
+    flex: 1 1 520px;
+    max-width: 640px;
+  }
+
+  &-count {
+    margin-left: 6px;
+    opacity: 0.7;
+  }
+
+  &-list.is-loading {
+    opacity: 0.6;
+  }
+
+  &-list > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &-empty {
+    color: var(--muted-color);
+    padding: 20px 0;
+  }
+
+  &-pager {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+  }
+}
+
+.SalvageLink {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--control-bg);
+
+  &-main {
+    flex: 1 1 320px;
+    min-width: 0;
+  }
+
+  &-url {
+    font-weight: bold;
+    overflow-wrap: anywhere;
+  }
+
+  &-kind {
+    margin-right: 6px;
+    color: var(--muted-color);
+  }
+
+  &-meta,
+  &-posts,
+  &-decision {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    margin-top: 4px;
+    font-size: 13px;
+    color: var(--muted-color);
+    overflow-wrap: anywhere;
+  }
+
+  &-status {
+    font-weight: bold;
+
+    &--broken {
+      color: var(--validation-error-color);
+    }
+  }
+
+  &-hidden {
+    font-style: italic;
+  }
+
+  &-postList {
+    margin: 6px 0 0;
+    padding-left: 18px;
+    font-size: 13px;
+  }
+
+  &-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 6px;
+  }
+}
+
+.SalvageReplaceModal-old {
+  overflow-wrap: anywhere;
+  text-decoration: line-through;
+  color: var(--muted-color);
+}
