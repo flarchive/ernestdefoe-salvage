@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of ernestdefoe/salvage.** Not for installation: use [Packagist](https://packagist.org/packages/ernestdefoe/salvage) or the [upstream repository](https://github.com/ernestdefoe/salvage).
 
-**0** versions archived · Latest: [`v1.0.0`](https://github.com/flarchive/ernestdefoe-salvage/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^2.0`
+**1** versions archived · Latest: [`v1.0.0`](https://github.com/flarchive/ernestdefoe-salvage/tree/archive/v1.0.0) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.0.0` | 2026-10-20 | `^2.0` | [Browse](https://github.com/flarchive/ernestdefoe-salvage/tree/archive/v1.0.0) |
 
 Catalog entry: [packages/ernestdefoe-salvage.json](https://github.com/flarchive/archive-index/blob/main/packages/ernestdefoe-salvage.json)
 
